@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-02 10:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: movies/apps.py:8
+msgid "movies"
+msgstr "Кинотеатр"
+
+#: movies/models.py:24
+msgid "genre_name"
+msgstr "Название жанра"
+
+#: movies/models.py:25
+msgid "genre_description"
+msgstr "Описание"
+
+#: movies/models.py:29 movies/models.py:42
+msgid "Genre"
+msgstr "Жанр"
+
+#: movies/models.py:30 movies/models.py:77
+msgid "Genres"
+msgstr "Жанры"
+
+#: movies/models.py:40 movies/models.py:82 movies/models.py:83
+#: movies/models.py:93
+msgid "Filmwork"
+msgstr "Фильм"
+
+#: movies/models.py:43
+msgid "created"
+msgstr "Дата выхода"
+
+#: movies/models.py:51
+msgid "person_full_name"
+msgstr "Имя"
+
+#: movies/models.py:55 movies/models.py:78 movies/models.py:95
+msgid "Person"
+msgstr "Персона"
+
+#: movies/models.py:56
+msgid "Persons"
+msgstr "Персоны"
+
+#: movies/models.py:64
+msgid "TV Show"
+msgstr "ТВ"
+
+#: movies/models.py:65
+msgid "Movie"
+msgstr "Фильм"
+
+#: movies/models.py:67
+msgid "film_work_title"
+msgstr "Название фильма"
+
+#: movies/models.py:68
+msgid "film_work_description"
+msgstr "Описание"
+
+#: movies/models.py:69
+msgid "film_work_rating"
+msgstr "Рейтинг"
+
+#: movies/models.py:74
+msgid "film_work_creation_date"
+msgstr "Дата выхода"
+
+#: movies/models.py:75
+msgid "film_work_type"
+msgstr "Тип"
+
+#: movies/models.py:96
+msgid "person_film_work_role"
+msgstr "Роль"
