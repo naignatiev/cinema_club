@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'movies.apps.MoviesConfig',
-    'debug_toolbar'
+    'debug_toolbar',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [
