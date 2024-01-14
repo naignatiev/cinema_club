@@ -11,8 +11,8 @@ services:
     image: postgres:13
     volumes:
       - /mnt/D/postgresql/data:/var/lib/postgresql/data
-    ports:
-      - '5432:5432'
+    expose:
+      - '5432'
     environment:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_USER=${DB_USER}
