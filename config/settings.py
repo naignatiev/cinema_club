@@ -128,6 +128,8 @@ include('components/database.py')
 LOCALE_PATHS = ['movies/locale']
 
 INTERNAL_IPS = [
+    '127.0.0.1',
+    'localhost'
 ]
 
 LOGGING = {
